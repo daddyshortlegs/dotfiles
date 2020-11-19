@@ -33,3 +33,5 @@ cask "adoptopenjdk11"
 cask "adoptopenjdk8"
 cask "appium"
 cask "vagrant"
+cask "virtualbox"
+
