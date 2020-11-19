@@ -34,4 +34,5 @@ cask "adoptopenjdk8"
 cask "appium"
 cask "vagrant"
 cask "virtualbox"
-
+cask "firefox"
+cask "google-chrome"
