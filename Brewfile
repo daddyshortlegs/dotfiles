@@ -8,6 +8,7 @@ cask "firefox"
 cask "google-chrome"
 cask "slack"
 cask "libreoffice"
+cask "microsoft-teams"
 
 # UI testing
 brew "carthage"
