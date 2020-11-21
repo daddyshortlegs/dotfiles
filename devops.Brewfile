@@ -1,0 +1,11 @@
+# Devops
+cask "virtualbox"
+cask "vagrant"
+brew "packer"
+brew "ansible"
+brew "terraform"
+cask "docker"
+brew "kubernetes-cli"
+brew "aws-iam-authenticator"
+brew "awscli"
+brew "minikube"
