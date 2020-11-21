@@ -5,6 +5,7 @@ jdk() {
 }
 
 jdk 11
+export CLICOLOR=1
 export ANDROID_HOME=/Users/andy/Library/Android/sdk
 export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$PATH
 
