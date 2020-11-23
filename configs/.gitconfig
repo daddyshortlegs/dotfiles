@@ -1,0 +1,6 @@
+[includeif "gitdir:~/git_work/"]
+	path = .gitconfig-work
+[includeif "gitdir:~/git_home/"]
+	path = .gitconfig-personal
+[core]
+	autocrlf = input
