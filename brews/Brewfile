@@ -36,6 +36,7 @@ cask "pycharm-ce"
 cask "webstorm"
 cask "android-studio"
 cask "screen"
+cask "iterm2"
 
 # General utils
 brew "gnutls"
