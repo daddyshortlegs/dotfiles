@@ -7,10 +7,15 @@ do
   brew bundle --file ${brew}
 done
 
-rbenv install 2.6.6
-rbenv global 2.6.6
-pyenv install 3.9.0
-pyenv global 3.9.0
+if [ ! -d ~/.rbenv/versions/2.6.6 ]; then
+    rbenv install 2.6.6
+    rbenv global 2.6.6
+fi
+
+if [ ! -d ~/.pyenv/versions/3.9.0 ]; then
+    pyenv install 3.9.0
+    pyenv global 3.9.0
+fi
 
 echo "Linking dotfiles"
 for config in `ls -a ${script_path}/configs/`
