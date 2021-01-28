@@ -30,3 +30,6 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/${script
 # Tell iTerm2 to use the custom preferences in the directory
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
+gem install xcode-install
+xcversion install 12.2
+
