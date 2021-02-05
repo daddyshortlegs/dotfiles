@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
+cask "android-file-transfer"
+
 # Office type stuff
 cask "firefox"
 cask "google-chrome"
@@ -34,6 +36,7 @@ cask "jetbrains-toolbox"
 cask "intellij-idea-ce"
 cask "pycharm-ce"
 cask "webstorm"
+cask "goland"
 cask "android-studio"
 cask "screen"
 cask "iterm2"

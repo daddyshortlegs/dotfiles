@@ -18,8 +18,9 @@ configure_prompt() {
 configure_prompt
 jdk 11
 
-export ANDROID_HOME=/Users/andy/Library/Android/sdk
-export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$PATH
+export ANDROID_HOME=/Users/$HOME/Library/Android/sdk
+export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH
+export PATH=/Users/$HOME/.gem/ruby/2.7.0/bin:$PATH
 
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
